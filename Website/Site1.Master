@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs"   Inherits="Website.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            padding-block:10px;
+        }
+        .auto-style2 {
+            height: 49px;
+            width: 100%;
+        }
+        .auto-style3 {
+            height: 50px;
+            padding : 0px !important;
+        }
+        .auto-style4 {
+            height: 50px;
+            text-align:center;
+        }
+        .auto-style5 {
+            height:auto;
+            width: 100%;
+            align-content:center;
+            
+        }
+        .auto-style6 {
+            width: 20%;
+            max-height:inherit;
+           
+        }
+        .auto-style7 {
+            width: 80%;
+            max-height:fit-content;
+         
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+                <table class="auto-style1">
+                    <tr>
+                        <td class="auto-style2" style="text-align: center; vertical-align: middle; background-color: #CC66FF; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                           Welcome to Offical <I>K/DA</I> Fan Page </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">
+                            <table class="auto-style5">
+                                <tr>
+                                    <td class="auto-style6" style="text-align: center; vertical-align: middle; font-weight: bold; background-color: #E0C1FF; font-family: 'Segoe UI Symbol'; font-size: large;"><br />
+                                        (◡‿◡✿)<br /><br />
+                                        <a href="WebForm1.aspx" style="vertical-align: middle; text-align: center">Homepage</a><br />
+                                        <a href="WebForm3.aspx">Join Fanpage</a><br />
+                                        <a href="WebForm4.aspx">About <I>K/DA</I></a><br />
+                                        <br />
+                                    </td>
+                                    <td style="text-align: left; vertical-align: top" class="auto-style7">
+                                        <formview>
+                                        <asp:ContentPlaceHolder ID="Registration" runat="server">
+                                         This is Homepage
+                                        </asp:ContentPlaceHolder>
+                                     </formview>
+                                    </td>
+                                    
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style4" style="background-color: #CC66FF; font-family: Arial; font-size: medium; font-weight: bold;">
+                           © All Copyrights Reseved.
+                        </td>
+                    </tr>
+                </table>
+    </form>
+</body>
+</html>

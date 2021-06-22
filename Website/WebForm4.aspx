@@ -1,0 +1,8 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm4.aspx.cs" Inherits="Website.WebForm4" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Registration" runat="server">
+
+    <p style="padding: 60px; margin: 20px; font-family: 'Times New Roman', Times, serif; vertical-align: middle; text-align: justify; word-spacing: normal; background-color: #FFFFFF; font-size: large; font-weight: bold; top: 30px; bottom: 30px; right: 50px; left: 50px; font-variant: normal; color: #660066; font-style: italic;">
+    K/DA is a&nbsp;virtual K-pop–inspired girl group consisting of four themed versions of League of Legends characters: Ahri, Akali, Evelynn and Kai&#39;Sa.&nbsp;American singers Madison Beer and Jaira Burns and (G)I-dle members Miyeon and Soyeon provide the voices of Evelynn, Kai&#39;Sa, Ahri, and Akali respectively, though the characters have also been voiced by other artists. K/DA was developed by Riot Games, the company behind League of Legends, and unveiled at the 2018 League of Legends World Championship with an augmented reality live performance of their first song, &quot;Pop/Stars&quot;.The conception of K/DA was based on Riot&#39;s expressed desire to create more musical content in the future, with the characters chosen based on K-pop archetypes. The group was created to promote the&nbsp;League&nbsp;World Championship&nbsp;and to sell in-game K/DA&nbsp;skins&nbsp;of the characters in&nbsp;League of Legends. K/DA has subsequently achieved significant popularity both within and beyond the&nbsp;League of Legends&nbsp;fandom, and received critical 
+    acclaim, especially for their performance during the World Championship and the impact of gaming on the music scene.</p>
+
+</asp:Content>
